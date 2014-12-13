@@ -289,6 +289,7 @@
 			</Reference>
 			<Model>ST812</Model>
 			<Label lang="en">Flood Sensor</Label>
+			<ConfigFile>everspring/st812.xml</ConfigFile>
 		</Product>
 	</Manufacturer>
 	<Manufacturer>
@@ -633,6 +634,15 @@
 		<Product>
 			<Reference>
 				<Type>0002</Type>
+				<Id>0009</Id>
+			</Reference>
+			<Model>HEM</Model>
+			<Label lang="en">Home Energy Meter</Label>
+			<ConfigFile>aeon/hem.xml</ConfigFile>
+		</Product>
+		<Product>
+			<Reference>
+				<Type>0002</Type>
 				<Id>001C</Id>
 			</Reference>
 			<Model>HEM-G2</Model>
@@ -647,6 +657,14 @@
 			<Model>DSD31</Model>
 			<Label lang="en">Outlet Plugable Siren</Label>
 			<ConfigFile>aeon/dsd31.xml</ConfigFile>
+		</Product>
+		<Product>
+			<Reference>
+				<Type>0003</Type>
+				<Id>0019</Id>
+			</Reference>
+			<Model>DSC25G2</Model>
+			<Label lang="en">Dimmer G2</Label>
 		</Product>
 	</Manufacturer>
 	<Manufacturer>
@@ -885,6 +903,10 @@
 			<ConfigFile>fibaro/fgs211.xml</ConfigFile>
 		</Product>
 		<Product>
+			<Reference>
+				<Type>0200</Type>
+				<Id>0102</Id>
+			</Reference>
 			<Reference>
 				<Type>0200</Type>
 				<Id>0104</Id>
@@ -1512,6 +1534,28 @@
 			<Model>Vera</Model>
 			<Label lang="en">Vera Home Gateway</Label>
 			<ConfigFile>mios/vera.xml</ConfigFile>
+		</Product>
+	</Manufacturer>
+	<Manufacturer>
+		<Id>0154</Id>
+		<Name>POPP</Name>
+		<Product>
+			<Reference>
+				<Type>1100</Type>
+				<Id>0001</Id>
+			</Reference>
+			<Model>Wall Plug Switch</Model>
+			<Label lang="en"></Label>
+			<ConfigFile>popp/123610.xml</ConfigFile>
+		</Product>
+		<Product>
+			<Reference>
+				<Type>1100</Type>
+				<Id>0002</Id>
+			</Reference>
+			<Model>Wall Plug Dimmer</Model>
+			<Label lang="en"></Label>
+			<ConfigFile>popp/123580.xml</ConfigFile>
 		</Product>
 	</Manufacturer>
 </Manufacturers>
